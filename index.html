@@ -6,9 +6,21 @@
   <title>Loja de Tintas - Início</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    
+    <button onclick="document.getElementById('musica').play(); this.style.display='none';">
+    Tocar Música
+    </button>
+
+  <!-- Música de fundo -->
+  <audio id="musica" loop>
+    <source src="tacos.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
   <header>
-    <div class="logo">🎨 JDconstrutintas</div>
+    <div class="logo">🎨 JDconstrutintas 🎨</div>
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
@@ -19,13 +31,28 @@
   </header>
 
   <section class="banner">
-    <h1>Bem-vindo à melhor loja de tintas!</h1>
+    <h1>Bem-vindo à mELHlhoRr lOja de tintas do MUNDO!</h1>
     <p>Qualidade, variedade e preço justo para transformar seus projetos.</p>
     <a href="produtos.html" class="btn">Ver Produtos</a>
   </section>
 
+  <section class="sobre-nos">
+      <h2>Sobre Nós</h2>
+      <p>
+        Na <strong>Loja de Tintas</strong>, acreditamos que cada projeto merece cores de qualidade. 
+        Estamos há anos oferecendo uma ampla variedade de tintas, com cores vibrantes e acabamento impecável, para transformar sua casa, escritório ou qualquer ambiente.
+      </p>
+      <p>
+        Nosso compromisso é entregar produtos confiáveis, atendimento de excelência e soluções personalizadas para cada cliente. 
+        Seja você um profissional da construção ou alguém apaixonado por decoração, temos a tinta perfeita para o seu projeto!
+      </p>
+      <p>
+        Explore nosso catálogo e descubra como podemos colorir a sua vida!
+      </p>
+    </section>
+
   <footer>
-    <p>© 2025 Loja de Tintas - Trabalho escolar fictício</p>
+    <p>© 2025 Loja de Tintas - Proz project</p>
   </footer>
 </body>
 </html>
