@@ -8,7 +8,7 @@
 
 /* Cabeçalho */
 header {
-  background: #1a1a1a;
+  background: #000000;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -35,6 +35,27 @@ nav a {
 
 nav a:hover {
   color: #ffcc00;
+}
+
+/* Sobre Nós */
+.sobre-nos {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.sobre-nos h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.sobre-nos p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #333;
 }
 
 /* Banner */
@@ -161,9 +182,9 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 15px;
-  background: #1a1a1a;
+  background: #000000;
   color: white;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 /* =========================
@@ -242,3 +263,4 @@ footer {
     font-size: 0.9em;
   }
 }
+
