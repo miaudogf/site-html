@@ -1,9 +1,13 @@
 /* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Cabeçalho */
@@ -191,7 +195,7 @@ footer {
    RESPONSIVIDADE
 ========================= */
 
-/* Telas até 768px (tablets e celulares grandes) */
+/* Telas até 768px */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -222,7 +226,7 @@ footer {
   }
 }
 
-/* Telas até 480px (celulares pequenos) */
+/* Telas até 480px */
 @media (max-width: 480px) {
   header {
     padding: 15px;
